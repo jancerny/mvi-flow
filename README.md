@@ -2,7 +2,7 @@
 MVI-observable is a simple MVI library for Kotlin + Coroutines inspired by Redux-observable
 
 # How it works
-TODO
+![Layers diagram](/diagram.svg)
 
 # Installation
 Add jitpack to your project `build.gradle` 
