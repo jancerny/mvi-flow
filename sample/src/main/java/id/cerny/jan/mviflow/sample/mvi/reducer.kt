@@ -1,6 +1,6 @@
-package id.cerny.jan.mviobservable.mvi
+package id.cerny.jan.mviflow.sample.mvi
 
-import id.cerny.jan.mviobservable.data.RequestStatus
+import id.cerny.jan.mviflow.sample.data.RequestStatus
 
 fun rootReducer(state: AppState, action: Action): AppState = when (action) {
     Action.IncrementCounter -> state.copy(counterRequestStatus = RequestStatus.Progress)

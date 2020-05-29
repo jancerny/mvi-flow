@@ -1,4 +1,4 @@
-package id.cerny.jan.mviobservable.data
+package id.cerny.jan.mviflow.sample.data
 
 import kotlinx.coroutines.delay
 

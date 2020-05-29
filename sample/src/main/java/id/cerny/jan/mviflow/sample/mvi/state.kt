@@ -1,6 +1,6 @@
-package id.cerny.jan.mviobservable.mvi
+package id.cerny.jan.mviflow.sample.mvi
 
-import id.cerny.jan.mviobservable.data.RequestStatus
+import id.cerny.jan.mviflow.sample.data.RequestStatus
 
 data class AppState(
     val counterRequestStatus: RequestStatus<Int> = RequestStatus.None,

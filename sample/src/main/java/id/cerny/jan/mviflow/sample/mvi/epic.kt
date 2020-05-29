@@ -1,10 +1,10 @@
-package id.cerny.jan.mviobservable.mvi
+package id.cerny.jan.mviflow.sample.mvi
 
 import android.util.Log
-import id.cerny.jan.mviobservable.Dependencies
-import id.cerny.jan.mviobservable.Epic
-import id.cerny.jan.mviobservable.data.RequestStatus
-import id.cerny.jan.mviobservable.data.incrementCounter
+import id.cerny.jan.mviflow.sample.Dependencies
+import id.cerny.jan.mviflow.Epic
+import id.cerny.jan.mviflow.sample.data.RequestStatus
+import id.cerny.jan.mviflow.sample.data.incrementCounter
 import kotlinx.coroutines.flow.*
 
 typealias AppEpic = Epic<AppState, Action, Dependencies>

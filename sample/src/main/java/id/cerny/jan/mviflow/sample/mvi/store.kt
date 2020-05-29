@@ -1,7 +1,7 @@
-package id.cerny.jan.mviobservable.mvi
+package id.cerny.jan.mviflow.sample.mvi
 
-import id.cerny.jan.mviobservable.Dependencies
-import id.cerny.jan.mviobservable.Store
+import id.cerny.jan.mviflow.sample.Dependencies
+import id.cerny.jan.mviflow.Store
 
 val store = Store(
     initialState = AppState(),

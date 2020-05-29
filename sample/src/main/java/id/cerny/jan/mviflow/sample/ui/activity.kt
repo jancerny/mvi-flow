@@ -1,16 +1,14 @@
-package id.cerny.jan.mviobservable.ui
+package id.cerny.jan.mviflow.sample.ui
 
 import android.os.Bundle
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
 import androidx.lifecycle.lifecycleScope
-import com.google.android.material.floatingactionbutton.FloatingActionButton
-import id.cerny.jan.mviobservable.R
-import id.cerny.jan.mviobservable.data.RequestStatus
-import id.cerny.jan.mviobservable.mvi.Action
-import id.cerny.jan.mviobservable.mvi.AppState
-import id.cerny.jan.mviobservable.mvi.store
+import id.cerny.jan.mviflow.sample.R
+import id.cerny.jan.mviflow.sample.data.RequestStatus
+import id.cerny.jan.mviflow.sample.mvi.Action
+import id.cerny.jan.mviflow.sample.mvi.AppState
+import id.cerny.jan.mviflow.sample.mvi.store
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.coroutines.flow.collect
 

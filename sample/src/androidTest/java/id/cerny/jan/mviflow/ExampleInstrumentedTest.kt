@@ -1,4 +1,4 @@
-package id.cerny.jan.mviobservable
+package id.cerny.jan.mviflow
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

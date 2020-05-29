@@ -1,4 +1,4 @@
-package id.cerny.jan.mviobservable
+package id.cerny.jan.mviflow
 
 import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.BroadcastChannel
