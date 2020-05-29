@@ -1,0 +1,3 @@
+include ':mviobservable'
+include ':sample'
+rootProject.name = "mvi-observable"
