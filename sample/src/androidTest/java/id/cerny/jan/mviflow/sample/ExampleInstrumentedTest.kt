@@ -1,4 +1,4 @@
-package id.cerny.jan.mviflow
+package id.cerny.jan.mviflow.sample
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("id.cerny.jan.mviobservable", appContext.packageName)
+        assertEquals("id.cerny.jan.mviflow.sample", appContext.packageName)
     }
 }

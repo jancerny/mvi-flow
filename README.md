@@ -13,7 +13,7 @@ allprojects {
     }
 }
 ```
-and then add **mvi-observable** to the list of dependencies
+and then add **mvi-flow** to the list of dependencies
 ```groovy
 dependencies {
     implementation 'com.github.jancerny:mvi-flow:1.0.0'

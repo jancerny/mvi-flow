@@ -1,4 +1,4 @@
-package id.cerny.jan.mviflow
+package id.cerny.jan.mviflow.sample
 
 import org.junit.Test
 
