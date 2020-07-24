@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel>
-      <module name="mvi-flow.mviflow" target="1.8" />
-      <module name="mvi-flow.sample" target="1.8" />
+    <bytecodeTargetLevel target="1.8">
       <module name="mvi-observable.mviobservable" target="1.8" />
       <module name="mvi-observable.sample" target="1.8" />
     </bytecodeTargetLevel>
