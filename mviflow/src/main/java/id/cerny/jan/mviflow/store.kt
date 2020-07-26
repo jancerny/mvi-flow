@@ -5,7 +5,8 @@ import kotlinx.coroutines.channels.BroadcastChannel
 import kotlinx.coroutines.channels.Channel.Factory.BUFFERED
 import kotlinx.coroutines.flow.*
 
-@OptIn(ExperimentalCoroutinesApi::class, FlowPreview::class)
+@ExperimentalCoroutinesApi
+@FlowPreview
 class Store<State, Action, Dependencies>(
     initialState: State,
     private val scope: CoroutineScope = GlobalScope,
